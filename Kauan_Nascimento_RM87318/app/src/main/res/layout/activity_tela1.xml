@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:text="Qual é o valor da transferência pix?"
+        android:textSize="@dimen/text_label"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/input_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:hint="Digite o valor"/>
+
+    <Button
+        android:id="@+id/btn_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:text="Continuar" />
+
+</LinearLayout>
