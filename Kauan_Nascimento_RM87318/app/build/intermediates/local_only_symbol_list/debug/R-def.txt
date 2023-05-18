@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+dimen margin_button
+dimen margin_horizontal
+dimen margin_vertical
+dimen text_label
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_confirmar_transferencia
+id btn_continuar
+id btn_revisar_chave_pix
+id input_chave_pix
+id input_valor
+id text_chave_pix
+id text_transferindo
+id text_valor
+id text_view
+layout activity_tela1
+layout activity_tela2
+layout activity_tela3
+layout activity_tela4
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Kauan_Nascimento_RM87318
+xml backup_rules
+xml data_extraction_rules
